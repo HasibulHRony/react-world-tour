@@ -19,7 +19,7 @@ const Countries = ({ countriesPromise }) => {
     }
     return (
         <div>
-            <h1>Total Countries: {countries.length}</h1>
+            <h1>Total Countries in the world: {countries.length}</h1>
             <h2>I have visited: {visitedCountries.length} countries</h2>
             <h2>Total flegs visited: {visitedImgUrl.length}</h2>
             <div className='flags-container'>
